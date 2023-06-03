@@ -8,7 +8,7 @@ A Insight é uma empresa de pesquisa, reconhecida pela qualidade das suas entreg
 Compreendendo o contexto de cada negócio e mercado;
 Utilizando os melhores métodos, ferramentas e tecnologias para apoiar uma tomada de decisão rápida, inteligente e que maximize os resultados dos nossos clientes.
 
-#####Detalhes do projeto:
+##### Detalhes do projeto:
 
 - A pesquisa contem 4 perguntas  que      podem ser respondidas com Sim (1), Não (2), Não sei responder (3). 
 - Para iniciar o questionário será solicitado ao usuário que informe a sua idade e gênero. 
