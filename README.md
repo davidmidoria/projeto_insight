@@ -24,7 +24,13 @@ Utilizando os melhores métodos, ferramentas e tecnologias para apoiar uma tomad
 
 ##### Pesquisa:
 Curso de Inglês?
-Pesquisa que visa coletar dados, sobre o interesse, o tempo e dispositivos mais adequadas para o ensino eficiente da língua inglesa conforme o tempo disponível dos interessados. Armazenar os dados dessa pesquisa em um arquivo .csv
+Pesquisa que visa coletar dados, sobre o interesse, o tempo e dispositivos mais adequadas para o ensino eficiente da língua inglesa conforme o tempo disponível dos interessados. Armazenar os dados dessa pesquisa em um arquivo .csv e mostrar através de gráficos gerados no Excel
+
+![graficos](https://github.com/davidmidoria/projeto_insight/assets/132007913/621d6af6-834f-4bc1-ad9a-66e2eb25484f)
+
+
+
+
 
 ##### Perguntas da Pesquisa:
 1. Você acha que o inglês e importante na sua vida?
