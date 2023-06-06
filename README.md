@@ -1,7 +1,8 @@
 #  INSIGHT
 
 ------------
-https://github.com/davidmidoria/projeto_insight/blob/main/Imagens/projeto.png?raw=true
+![projeto](https://github.com/davidmidoria/projeto_insight/assets/132007913/2a8721e0-f353-4032-b171-f0a01e5ccc81)
+
 
 ### Quem somos:
 A Insight é uma empresa de pesquisa, reconhecida pela qualidade das suas entregas e especializada em transformar informações em inteligência.
