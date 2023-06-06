@@ -11,7 +11,15 @@ class criador_csv:# essa classe é responsavel pela obtenção de dados e criaç
         data_hora=str(datetime.today()).split()
         return ('/'.join(data_hora[0].replace('-',' ').split()[::-1]))+','+data_hora[1][:5] # retorna uma string contendo data e hora 
 
-
+    # esse método retorna um numéro numéro com valor limite podendo ser editavel fora isso ele possui um atributo
+    #exececao que se true permite que a função retorne a string '00'
+    def _retorna_numeros(self,pergunta,mensagem_erro='erro digite novamente:',limite=1000,exececao=False):
+        try:
+            valor=input(pergunta)
+            valor=(valor if valor=='00'and exececao==True else int(valor) )
+        except:valor=limite+1
+        return (valor if int(valor)<=limite else self._retorna_numeros(mensagem_erro))
+    
     #esse método recebe os nomes de cada coluna da tabela é cria o documento caso ele não.
     def _nome_colunas(self,chaves):
         self._gerador_csv((','.join(chaves)+',data,hora'),'r')
