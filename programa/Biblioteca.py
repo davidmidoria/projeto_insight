@@ -4,8 +4,15 @@ class criador_csv:# essa classe é responsavel pela obtenção de dados e criaç
         self._nome_arquivo=nome_arquivo
         self._valores=[]
         self._chaves=self._nome_colunas(chaves)
+        
+    #esse método é responsavel por importar a data e hora é fazer o tratamento para um formato mais aceito no Brasil
+    @staticmethod
+    def _data_e_hora():
+        data_hora=str(datetime.today()).split()
+        return ('/'.join(data_hora[0].replace('-',' ').split()[::-1]))+','+data_hora[1][:5] # retorna uma string contendo data e hora 
 
-  #esse método recebe os nomes de cada coluna da tabela é cria o documento caso ele não.
+
+    #esse método recebe os nomes de cada coluna da tabela é cria o documento caso ele não.
     def _nome_colunas(self,chaves):
         self._gerador_csv((','.join(chaves)+',data,hora'),'r')
         return chaves
