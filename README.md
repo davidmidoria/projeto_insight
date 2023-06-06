@@ -1,7 +1,7 @@
 #  INSIGHT
 
 ------------
-projeto.png
+![imagem_do_projeto](https://git%2B.vscode-resource.vscode-cdn.net/c%3A/Users/alice/Documents/GitHub/projeto_insight/Imagens/projeto.png?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5Calice%5C%5CDocuments%5C%5CGitHub%5C%5Cprojeto_insight%5C%5CImagens%5C%5Cprojeto.png%22%2C%22ref%22%3A%22~%22%7D)
 
 ### Quem somos:
 A Insight é uma empresa de pesquisa, reconhecida pela qualidade das suas entregas e especializada em transformar informações em inteligência.
