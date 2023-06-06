@@ -1,7 +1,7 @@
 #  INSIGHT
 
 ------------
-image.png
+projeto.png
 
 ### Quem somos:
 A Insight é uma empresa de pesquisa, reconhecida pela qualidade das suas entregas e especializada em transformar informações em inteligência.
