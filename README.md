@@ -1,7 +1,7 @@
 #  INSIGHT
 
 ------------
-projeto.png
+https://github.com/davidmidoria/projeto_insight/blob/main/Imagens/projeto.png?raw=true
 
 ### Quem somos:
 A Insight é uma empresa de pesquisa, reconhecida pela qualidade das suas entregas e especializada em transformar informações em inteligência.
