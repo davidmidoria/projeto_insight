@@ -20,6 +20,27 @@ class criador_csv:# essa classe é responsavel pela obtenção de dados e criaç
         except:valor=limite+1
         return (valor if int(valor)<=limite else self._retorna_numeros(mensagem_erro))
     
+    
+    # esse método permite armazenar numeros na lista de valores fora isso retorna true a cada número novo armazenado
+    # ele pode abrir uma execeção para caso o cliente digite '00' retornando assim o valor False, para habilitar essa
+    #função basta dar como argumento para o atributo exececao o valor True
+    def armazena_numeros(self,pergunta,mensagem_erro,limite=1000,exececao=False):
+        valor=self._retorna_numeros(pergunta,mensagem_erro,limite,exececao)
+        if valor=='00':
+            return False
+        else:
+           self._valores.append(str(valor))
+           return True 
+        
+    #esse método deve receber um pergunta cujas opções devem ser respondidas a partir de valores númericos começando
+    #do 0, esse método possui um atributo retorno que deve receber uma lista com valores, que a partir da resposta do
+    #cliente um sera devolvido, por exemplo  sé o cliente retorna o número um, o indice de indexação número um da 
+    #lista sera devolvido OBS:(o item número um não é o primeiro item esse é o 0, o item de indexação 1 seria o segundo
+    # item)
+    def _retorna_resposta(self,pergunta,retorno,mensagem_erro):
+        return retorno[self._retorna_numeros(pergunta,mensagem_erro,limite=(len(retorno)-1))]
+    
+    
     #esse método recebe os nomes de cada coluna da tabela é cria o documento caso ele não.
     def _nome_colunas(self,chaves):
         self._gerador_csv((','.join(chaves)+',data,hora'),'r')
@@ -37,6 +58,7 @@ class criador_csv:# essa classe é responsavel pela obtenção de dados e criaç
                 elif tipo=='a' or tipo== 'w':
                     arquivo.write(informacao+'\n')
         except: self._gerador_csv(informacao,'w')
+<<<<<<< HEAD
         
     #esse método deve receber uma lista contendo as perguntas e uma lista com as respostas que serão armazenadas
     #no atributo __valores segundo a resposta do usuario 
@@ -67,3 +89,5 @@ class criador_csv:# essa classe é responsavel pela obtenção de dados e criaç
                 elif tipo=='a' or 'w':
                     arquivo.write(informacao+'\n')
         except: self._gerador_csv(informacao,'w')
+=======
+>>>>>>> b5e1113ad0c3c6760bcd578dd497aa0616350ce3
