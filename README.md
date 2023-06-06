@@ -1,6 +1,8 @@
 #  INSIGHT
 
 ------------
+![imagemDoProjeto](https://github.com/davidmidoria/projeto_insight/assets/132007913/28c777b1-dee8-42ef-b15b-0bb7bedefd6e)
+
 
 
 ### Quem somos:
@@ -23,7 +25,9 @@ Utilizando os melhores métodos, ferramentas e tecnologias para apoiar uma tomad
 
 ##### Pesquisa:
 Curso de Inglês?
-Pesquisa que visa coletar dados, sobre o interesse, o tempo e dispositivos mais adequadas para o ensino eficiente da língua inglesa conforme o tempo disponível dos interessados. Armazenar os dados dessa pesquisa em um arquivo .csv
+Pesquisa que visa coletar dados, sobre o interesse, o tempo e dispositivos mais adequadas para o ensino eficiente da língua inglesa conforme o tempo disponível dos interessados. Armazenar os dados dessa pesquisa em um arquivo .csv e mostrar os gráficos no excel.
+
+![grafico](https://github.com/davidmidoria/projeto_insight/assets/132007913/342561f3-50a3-4d27-958e-60758df3e8e9)
 
 ##### Perguntas da Pesquisa:
 1. Você acha que o inglês e importante na sua vida?
