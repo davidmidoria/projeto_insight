@@ -1,3 +1,5 @@
+# pasta contendo as strings utilizadas no programa
+
 pergunta4="""
 
 {0}projeto insight
@@ -22,7 +24,6 @@ auxiliando nesse processo?
 {1}2-{0}não{1}                                         
 ======================================================{0}
 """.format('\033[94m','\033[97m')+'\ndigite:\033[97m'
-
 pergunta2="""
 
 {0}projeto insight
@@ -33,6 +34,32 @@ pergunta2="""
 {1}1-{0}sim                                             
 {1}2-{0}não{1}                                         
 ======================================================{0}
+""".format('\033[94m','\033[97m')+'\ndigite:\033[97m'
+
+pergunta01="""
+
+{0}projeto insight
+{1}questionario pergunta 1
+{0}você acha que o inglês e importante na sua vida?
+{1}===================================================                
+{1}0-{0}não soube responder                            
+{1}1-{0}sim                                             
+{1}2-{0}não{1}                                         
+======================================================{0}
+""".format('\033[94m','\033[97m')+'\ndigite:\033[97m'
+
+perguntas=[pergunta01,pergunta2,pergunta3,pergunta4]
+
+
+
+idade="""
+
+{0}projeto insight
+{1}idade
+{0}digite a idade do entrevistado
+para acabar a pesquisa digite:({1}00{0})
+{1}===================================================                
+{0}
 """.format('\033[94m','\033[97m')+'\ndigite:\033[97m'
 
 genero="""
@@ -50,5 +77,5 @@ re_genero=['F','M']
 
 mensagem_erro0='\033[91mdigite um valor numerico entre 0 e 1:\033[0m'
 mensagem_erro1='\033[91mdigite um valor numerico entre 0 e 2:\033[0m'
-mensagem_erro2='033[91mdigite um valor numerico valido: \033[0m'
+mensagem_erro2='\033[91mdigite um valor numerico valido: \033[0m'
 chaves=['idade','genero','importância','individualmente','ajuda','tempo']
