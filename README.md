@@ -34,3 +34,6 @@ Pesquisa que visa coletar dados, sobre o interesse, o tempo e dispositivos mais 
 2. Você tem condições de aprender o inglês sozinho?
 3. Você acha importante ter um professor lhe auxiliando nesse processo?
 4. você teria 20 minutos por dia ?
+
+link da apresentação
+https://www.canva.com/design/DAFjx2outK4/IgLtYaTcbomtTJWfekYW_g/edit?utm_content=DAFjx2outK4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
