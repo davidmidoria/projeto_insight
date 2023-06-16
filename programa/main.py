@@ -2,7 +2,7 @@ from Biblioteca import criador_csv
 from conteudo import *
 
 # inicialização do arquivo
-objeto_csv=criador_csv(chaves,'arquivo_csv/projeto_insght')
+objeto_csv=criador_csv(chaves,'projeto_insght')
 loop_secundario=True
 while loop_secundario==True:
     
